@@ -1,0 +1,16 @@
+﻿@model Photo
+
+
+
+<div class="col-lg-4">
+    <img height="500" width="500"
+         class="img-thumbnail"
+         src="data:image/jpeg; base64, @Model.PhotoData"
+         style="min-height:400px; min-width:356px; margin-bottom:4px;" />
+    <h2>@Model.Tag.Name</h2>
+    <form asp-controller="Home" asp-action="Delete" asp-route-id="@Model.Id" method="post" style="margin-bottom:4px;">
+        <div class="form-group">
+            <input type="submit" class="btn btn-danger" value="Delete" style="background-color: indianred; border-color: indianred" />
+        </div>
+    </form>
+</div>

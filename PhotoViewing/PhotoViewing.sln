@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoViewing", "PhotoViewing.csproj", "{1814B999-D6C0-4F47-B588-620708C6DCB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoViewingBot", "..\PhotoViewingBot\PhotoViewingBot.csproj", "{32C8ADDB-43C8-4404-AEB4-B27BE92C5889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{672F6B75-344A-4D6F-84F6-F5D575F6C444}"
+	ProjectSection(SolutionItems) = preProject
+		..\Database\PhotoViewingDB.ldf = ..\Database\PhotoViewingDB.ldf
+		..\Database\PhotoViewingDB.mdf = ..\Database\PhotoViewingDB.mdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1814B999-D6C0-4F47-B588-620708C6DCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1814B999-D6C0-4F47-B588-620708C6DCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1814B999-D6C0-4F47-B588-620708C6DCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1814B999-D6C0-4F47-B588-620708C6DCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C8ADDB-43C8-4404-AEB4-B27BE92C5889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C8ADDB-43C8-4404-AEB4-B27BE92C5889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C8ADDB-43C8-4404-AEB4-B27BE92C5889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C8ADDB-43C8-4404-AEB4-B27BE92C5889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAFBA8A1-41B7-437F-88CA-B788147D359A}
+	EndGlobalSection
+EndGlobal
