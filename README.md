@@ -9,4 +9,4 @@ PhotoViewongBot - веб-сервис для работы с Telegram.API(Bot), 
 
 Файлы из папки Database необходимо скопировать в папку MSSQLLocalDB
 
-C:\Users\*имя пользователя*\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB
+C:\Users\\*имя пользователя*\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB
