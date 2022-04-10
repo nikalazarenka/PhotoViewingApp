@@ -8,4 +8,5 @@ PhotoViewongBot - веб-сервис для работы с Telegram.API(Bot), 
 Если тег в сообщении под фото отсутсвует, то генерируется тег в виде даты отправки(UTC).
 
 Файлы из папки Database необходимо скопировать в папку MSSQLLocalDB
+
 C:\Users\*имя пользователя*\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB
